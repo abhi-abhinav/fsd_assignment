@@ -31,6 +31,7 @@ body {
 }
 .right-side {
     flex: 1;
+    margin-top: 3rem;
     margin-left: 4rem;
     margin-right: 4rem;
 }
@@ -69,11 +70,13 @@ body {
     font-size: 1.1em;
 }
 
-.tags span {
+.tags p {
+    font-family: "Dancing Script", cursive;
+    font-size: large;
+    font-weight: 7  00;
     display: inline-block;
     background-color: rgba(231, 218, 218, 0.342);
-    color: #333;
-    padding: 4px 0px;
+    color: #333;    
     margin-top: 1rem; 
     margin-right: 5rem; 
     border-radius: 5px;
@@ -123,3 +126,5 @@ body {
         padding: 20px;
     }
 }
+
+
