@@ -107,23 +107,68 @@ body {
     padding-left: 4rem;
 }
 
+@media (max-width: 1024px) {
+    .right-side h1 {
+        font-size: 3em;
+    }
+    .headline {
+        font-size: 1.3em;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
+        height: auto;
     }
-
     .left-side, .right-side {
         width: 100%;
         height: auto;
     }
-
+    .right-side {
+        margin: 2rem 1rem;
+    }
     .profile-img {
         max-width: 100%;
         border-radius: 0;
     }
+    .right-side h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .headline {
+        font-size: 1.2em;
+        text-align: center;
+        margin: 0 1rem 0 0 ;
+    }
+    .description p, .tags p {
+        text-align: center;
+        text-align: center;
+        margin: 0 1.5rem 0 0 ;
+    }
+    .details {
+        flex-direction: column;
+    }
+    .social {
+        text-align: center;
+    }
+    .rest {
+        padding-left: 0;
+    }
+}
 
-    .right-side {
-        padding: 20px;
+@media (max-width: 480px) {
+    .right-side h1 {
+        font-size: 2em;
+    }
+    .headline {
+        font-size: 1em;
+    }
+    .portfolio-button {
+        padding: 8px 16px; 
+    }
+    .tags p {
+        margin-right: 1rem;
     }
 }
 
